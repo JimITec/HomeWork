@@ -94,16 +94,18 @@ public class Lesson_3 {
 //        х - 366 для високосного года,
 //                х - 365 для обычного года.
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Введите год");
-//
-//        int x = scanner.nextInt();
-//
-//        if ((x % 400 == 0) || (x % 4 == 0) && (x % 100 !=0)) {
-//            System.out.println(x + " - В этом году 366 дней: Год Высокосный");
-//        } else {
-//            System.out.println(x + " - В это году 365 дней: Год не Высокосный");
-//        }
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите год");
+
+        int x = scanner.nextInt();
+
+        if ((x % 400 == 0) || (x % 4 == 0) && (x % 100 !=0)) {
+            System.out.println(x + " - В этом году 366 дней: Год Высокосный");
+        } else {
+            System.out.println(x + " - В это году 365 дней: Год не Высокосный");
+        }
+
+
 
 
 
