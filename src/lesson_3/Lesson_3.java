@@ -92,7 +92,7 @@ public class Lesson_3 {
 //        количество дней в этом году: x
 //                , где
 //        х - 366 для високосного года,
-//                х - 365 для обычного года.
+//                х - 365 для обычного    года.
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите год");
