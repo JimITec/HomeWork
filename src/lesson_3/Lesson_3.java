@@ -91,7 +91,7 @@ public class Lesson_3 {
             System.out.println(digit * 2);
         } else if (digit == 0) {
             System.out.println(0);
-        } else if (digit <= -1) {
+        } else if (digit <= - 1) {
             System.out.println(a + 1);
         }
 
